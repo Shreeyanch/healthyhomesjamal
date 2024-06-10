@@ -1,0 +1,53 @@
+.poweredBy {
+  height: 18px;
+  position: relative;
+  line-height: 130%;
+  font-weight: 300;
+  display: inline-block;
+}
+.letterLogo2 {
+  width: 121px;
+  position: relative;
+  height: 20px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+  cursor: pointer;
+}
+.frameWrapper,
+.poweredByParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.poweredByParent {
+  width: 1440px;
+  height: 61px;
+  flex-direction: row;
+  gap: var(--gap-11xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-xl) 0;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .poweredBy {
+    font-weight: 300;
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-mid);
+  }
+}
+@media screen and (max-width: 420px) {
+  .poweredBy {
+    font-weight: 100;
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-mini);
+  }
+  .letterLogo2 {
+    width: 100px;
+  }
+}

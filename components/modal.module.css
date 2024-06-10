@@ -1,0 +1,231 @@
+.excellent,
+.pleaseRateYour {
+  position: relative;
+  line-height: 200%;
+  font-weight: 500;
+}
+.pleaseRateYour {
+  align-self: stretch;
+  height: 34px;
+  display: inline-block;
+}
+.excellent {
+  width: 113px;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-montserrat);
+  color: var(--color-springgreen);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.excellent:hover {
+  color: var(--color-black);
+}
+.starGroup {
+  width: 254px;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.good,
+.starGroup,
+.starRating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.starRating {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 182.9px);
+  left: 1px;
+  border-radius: var(--br-3xs);
+  height: 63.6px;
+  flex-direction: row;
+}
+.starRating:hover {
+  background-color: var(--color-ivory);
+}
+.good {
+  width: 113px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 200%;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-springgreen);
+  text-align: center;
+  flex-shrink: 0;
+}
+.good:hover {
+  color: var(--color-black);
+}
+.starGroup1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.starRating1,
+.starRating2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+}
+.starRating1 {
+  top: 64.2px;
+  height: 63.6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.starRating1:hover,
+.starRating2:hover,
+.starRating3:hover {
+  background-color: var(--color-ivory);
+}
+.starRating2 {
+  top: 144.4px;
+  height: 62.3px;
+}
+.fair,
+.starRating2,
+.starRating3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fair {
+  width: 113px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 200%;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-springgreen);
+  text-align: center;
+  flex-shrink: 0;
+}
+.starRating3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 223.3px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  height: 63.6px;
+  flex-direction: row;
+}
+.need {
+  margin: 0;
+}
+.needImprovementTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.needImprovement,
+.starRating4 {
+  display: flex;
+  align-items: center;
+}
+.needImprovement {
+  width: 113px;
+  position: relative;
+  font-size: var(--font-size-2xs);
+  line-height: 200%;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-springgreen);
+  text-align: center;
+  flex-shrink: 0;
+}
+.starRating4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 302.1px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  height: 63.6px;
+  flex-direction: row;
+  justify-content: center;
+}
+.starRating4:hover {
+  background-color: var(--color-white);
+  fill-opacity: 10;
+}
+.starRatingParent {
+  width: 369px;
+  position: relative;
+  height: 365.8px;
+}
+.modal {
+  height: 490px;
+  width: 380px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-saddlebrown);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .pleaseRateYour {
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+  }
+}
+@media screen and (max-width: 420px) {
+  .pleaseRateYour {
+    font-weight: 300;
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-mid);
+  }
+}
+@media screen and (max-width: 350px) {
+  .pleaseRateYour {
+    font-weight: 300;
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-smi);
+  }
+  .excellent {
+    font-size: var(--font-size-mini);
+    display: flex;
+  }
+  .starRating {
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+  .starRating,
+  .starRatingParent {
+    display: none;
+  }
+  .modal {
+    width: 320px;
+    gap: var(--gap-base);
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+}
