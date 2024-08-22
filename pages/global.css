@@ -30,13 +30,13 @@ body {
   /* Colors */
   --color-white: #fff;
   --color-black: #000;
-  --color-saddlebrown: #503018;
+  --color-saddlebrown: #ac8b3e;
   --star-hover: rgba(123, 97, 255, 0.2);
   --color-mediumslateblue-100: rgba(123, 97, 255, 0);
   --color-springgreen: #0edf62;
   --color-ivory: #ffffed;
   --color-thistle: rgba(199, 195, 216, 0);
-  --color-darkolivegreen: #485018;
+  --color-darkolivegreen: #ac8b3e;
   --color-mistyrose: #f9dede;
   --color-darksalmon: #ce8f61;
   --color-mediumseagreen: #22a155;
