@@ -9,7 +9,7 @@ const FeedBack: NextPage = () => {
       <div className={styles.shareYourTravelsForm}>
         <div className={styles.formHeader}>
           <img className={styles.image12Icon} alt="" src="/image-12@2x.png" />
-          <div className={styles.highlandBeans}>HIGHLAND BEANS</div>
+          {/* <div className={styles.highlandBeans}>HIGHLAND BEANS</div> */}
         </div>
         <Form />
       </div>

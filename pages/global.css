@@ -30,16 +30,16 @@ body {
   /* Colors */
   --color-white: #fff;
   --color-black: #000;
-  --color-saddlebrown: #ac8b3e;
+  --color-saddlebrown: #7f6a56;
   --star-hover: rgba(123, 97, 255, 0.2);
   --color-mediumslateblue-100: rgba(123, 97, 255, 0);
   --color-springgreen: #0edf62;
   --color-ivory: #ffffed;
   --color-thistle: rgba(199, 195, 216, 0);
-  --color-darkolivegreen: #ac8b3e;
+  --color-darkolivegreen: #7f6a56;
   --color-mistyrose: #f9dede;
   --color-darksalmon: #ce8f61;
-  --color-mediumseagreen: #22a155;
+  --color-mediumseagreen: #7f6a56;
   --color-gray: rgba(0, 0, 0, 0.6);
   --color-peru: #c37f4d;
 

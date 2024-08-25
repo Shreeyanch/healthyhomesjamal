@@ -13,7 +13,7 @@ const Rating: NextPage = () => {
     <div className={styles.rating}>
       <div className={styles.image12Parent}>
         <img className={styles.image12Icon} alt="" src="/image-12@2x.png" />
-        <div className={styles.highlandBeans}>HIGHLAND BEANS</div>
+        {/* <div className={styles.highlandBeans}>HIGHLAND BEANS</div> */}
         <div className={styles.modalWrapper}>
           <Modal />
         </div>
