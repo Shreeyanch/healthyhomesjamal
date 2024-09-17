@@ -23,7 +23,7 @@ export default function MyApp(props: AppProps) {
       <Head>
       <link rel="shortcut icon" href="/image-12@2x.png" />
 
-        <title>Maak Ara</title>
+        <title>Kohang</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
