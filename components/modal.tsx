@@ -12,11 +12,11 @@ const Modal: NextPage<ModalType> = ({ className = "" }) => {
   const router = useRouter();
 
   const onStarRatingClick = useCallback(() => {
-    window.location.href = "https://reviewthis.biz/kohang";
+    window.location.href = "https://www.tripadvisor.com/UserReviewEdit-g293890-d28244702-Khohang_Taste_Of_Thakali-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html";
   }, []);
 
   const onStarRating1Click = useCallback(() => {
-    window.location.href = "https://reviewthis.biz/kohang";
+    window.location.href = "https://www.tripadvisor.com/UserReviewEdit-g293890-d28244702-Khohang_Taste_Of_Thakali-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html";
   }, []);
 
   const onStarRating2Click = useCallback(() => {
