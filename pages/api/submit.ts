@@ -33,7 +33,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   try {
     const response = await sheets.spreadsheets.values.append({
       spreadsheetId: process.env.GOOGLE_SHEET_ID,
-      range: 'A1:D1',
+      range: 'F1:I1',
       valueInputOption: 'USER_ENTERED',
       requestBody: {
         values: [
